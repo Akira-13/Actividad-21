@@ -44,3 +44,20 @@ class NullResourceFactory:
                 }]
             }]
         }
+
+class TimestampedNullResourceFactory(NullResourceFactory):
+    @staticmethod
+    def create(name: str, fmt: str) -> dict:
+        ts = datetime.utcnow().strftime(fmt)
+        triggers = {
+            "factory_uuid": str(uuid.uuid4()),
+            "timestamp": ts
+        }
+        resource_block = {
+            "null_resource": {
+                name: {"triggers": triggers}
+            }
+        }
+        return {
+            "resource": [resource_block]
+        }

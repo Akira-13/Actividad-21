@@ -15,7 +15,7 @@ No se requieren credenciales de nube, demonio de Docker, ni dependencias externa
 import os
 from iac_patterns.builder import InfrastructureBuilder
 from iac_patterns.singleton import ConfigSingleton
-
+from iac_patterns.factory import TimestampedNullResourceFactory
 def main() -> None:
     # Inicializa una configuración global única para el entorno "local-dev"
     config = ConfigSingleton(env_name="desarrollo-local")
@@ -26,6 +26,9 @@ def main() -> None:
 
     # Construye 15 recursos null ficticios para demostrar escalabilidad (>1000 líneas en total)
     builder.build_null_fleet(count=15)
+
+    block = TimestampedNullResourceFactory.create("my_timestamped", "%Y%m%d")
+    builder._module.add(block)
 
     # Agrega un recurso final personalizado con una nota descriptiva
     builder.add_custom_resource(
