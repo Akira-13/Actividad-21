@@ -36,6 +36,10 @@ class ConfigSingleton(metaclass=SingletonMeta):
 
 * **Tarea**: Explica cómo `SingletonMeta` garantiza una sola instancia y el rol del `lock`.
 
+* **Respuesta**: 
+  - El método `__call__` es esencial para este patrón. Este método verifica si existe una instancia en memoria de esta clase; si es que ya existe en memoria, ya no es instanciada y devuelve la que existe en memoria. Caso contrario, si ya existe, es guardada en un diccionario `_instances`.
+  - `threading.Lock()` asegura que la labor de creación sea manejado por un solo hilo. Caso contrario, pueden generarse condiciones de carrera y violar la seguridad de hilos o *thread safety*.
+
 #### 2. Factory
 
 ```python
@@ -60,6 +64,9 @@ class NullResourceFactory:
 ```
 
 * **Tarea**: Detalla cómo la fábrica encapsula la creación de `null_resource` y el propósito de sus `triggers`.
+* **Respuesta**:
+  - La fábrica encapsula la creación de `null_resource` solo requiriendo dos atributos, el nombre y sus triggers, que el cliente puede pasar. Si existen triggers, estos son usados; casos contrarios se generan datos en tiempo de ejecución. El cliente no tiene que preocuparse de estructurar el JSON para `null_resource`, tan solo de pasar su nombre y triggers.
+  - Los triggers, en este caso, garantizan que el recurso sea único mediante `factory_uuid` y `timestamp`, lo cual lo identifican de manera única y fuerza la recreación de estos recursos. Es decir, Terraform ve que siempre ha cambiado algo.
 
 #### 3. Prototype
 
