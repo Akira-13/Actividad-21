@@ -40,19 +40,30 @@ class InfrastructureBuilder:
                 e inserta un trigger identificador con el índice correspondiente.
                 """
                 res_block = d["resource"][0]["null_resource"][0]
-                # Nombre original del recurso (por defecto "placeholder")
                 original_name = next(iter(res_block.keys()))
-                # Nuevo nombre válido: empieza con letra y contiene índice
                 new_name = f"{original_name}_{idx}"
-                # Renombramos la clave en el dict
                 res_block[new_name] = res_block.pop(original_name)
-                # Añadimos el trigger de índice
                 res_block[new_name][0]["triggers"]["index"] = idx
+
+                res_block[new_name][0]["triggers"]["welcome"] = "¡Hola!"
 
             # Clonamos el prototipo y aplicamos la mutación
             clone = base_proto.clone(mutator).data
             # Agregamos el recurso clonado al módulo compuesto
             self._module.add(clone)
+
+        localFile = {   
+            "resource": [{
+                "local_file": [{
+                    "welcome_txt": {
+                        "content": "Bienvenido!",
+                        "filename": "${path.module}/bienvenida.txt"
+                    }
+                }]
+            }]
+        }
+        self._module.add(localFile)
+                
 
         return self
 
