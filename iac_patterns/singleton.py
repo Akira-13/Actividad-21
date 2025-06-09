@@ -67,3 +67,8 @@ class ConfigSingleton(metaclass=SingletonMeta):
             Valor asociado o valor por defecto.
         """
         return self.settings.get(key, default)
+
+    # Ejercicio 2.1:
+    # Extensión de Singleton con método reset
+    def reset(self):
+        self.settings.clear()
