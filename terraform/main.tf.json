@@ -6,10 +6,9 @@
                     "placeholder_0": [
                         {
                             "triggers": {
-                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
-                                "timestamp": "2025-06-09T17:07:05.252354",
-                                "index": 0,
-                                "welcome": "\u00a1Hola!"
+                                "factory_uuid": "5fb2cabf-3cf9-44a5-8169-0f8543877fe3",
+                                "timestamp": "2025-06-09T17:56:09.033324",
+                                "index": 0
                             }
                         }
                     ]
@@ -22,10 +21,9 @@
                     "placeholder_1": [
                         {
                             "triggers": {
-                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
-                                "timestamp": "2025-06-09T17:07:05.252354",
-                                "index": 1,
-                                "welcome": "\u00a1Hola!"
+                                "factory_uuid": "5fb2cabf-3cf9-44a5-8169-0f8543877fe3",
+                                "timestamp": "2025-06-09T17:56:09.033324",
+                                "index": 1
                             }
                         }
                     ]
@@ -38,10 +36,9 @@
                     "placeholder_2": [
                         {
                             "triggers": {
-                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
-                                "timestamp": "2025-06-09T17:07:05.252354",
-                                "index": 2,
-                                "welcome": "\u00a1Hola!"
+                                "factory_uuid": "5fb2cabf-3cf9-44a5-8169-0f8543877fe3",
+                                "timestamp": "2025-06-09T17:56:09.033324",
+                                "index": 2
                             }
                         }
                     ]
@@ -54,10 +51,9 @@
                     "placeholder_3": [
                         {
                             "triggers": {
-                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
-                                "timestamp": "2025-06-09T17:07:05.252354",
-                                "index": 3,
-                                "welcome": "\u00a1Hola!"
+                                "factory_uuid": "5fb2cabf-3cf9-44a5-8169-0f8543877fe3",
+                                "timestamp": "2025-06-09T17:56:09.033324",
+                                "index": 3
                             }
                         }
                     ]
@@ -70,10 +66,9 @@
                     "placeholder_4": [
                         {
                             "triggers": {
-                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
-                                "timestamp": "2025-06-09T17:07:05.252354",
-                                "index": 4,
-                                "welcome": "\u00a1Hola!"
+                                "factory_uuid": "5fb2cabf-3cf9-44a5-8169-0f8543877fe3",
+                                "timestamp": "2025-06-09T17:56:09.033324",
+                                "index": 4
                             }
                         }
                     ]
@@ -86,10 +81,9 @@
                     "placeholder_5": [
                         {
                             "triggers": {
-                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
-                                "timestamp": "2025-06-09T17:07:05.252354",
-                                "index": 5,
-                                "welcome": "\u00a1Hola!"
+                                "factory_uuid": "5fb2cabf-3cf9-44a5-8169-0f8543877fe3",
+                                "timestamp": "2025-06-09T17:56:09.033324",
+                                "index": 5
                             }
                         }
                     ]
@@ -102,10 +96,9 @@
                     "placeholder_6": [
                         {
                             "triggers": {
-                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
-                                "timestamp": "2025-06-09T17:07:05.252354",
-                                "index": 6,
-                                "welcome": "\u00a1Hola!"
+                                "factory_uuid": "5fb2cabf-3cf9-44a5-8169-0f8543877fe3",
+                                "timestamp": "2025-06-09T17:56:09.033324",
+                                "index": 6
                             }
                         }
                     ]
@@ -118,10 +111,9 @@
                     "placeholder_7": [
                         {
                             "triggers": {
-                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
-                                "timestamp": "2025-06-09T17:07:05.252354",
-                                "index": 7,
-                                "welcome": "\u00a1Hola!"
+                                "factory_uuid": "5fb2cabf-3cf9-44a5-8169-0f8543877fe3",
+                                "timestamp": "2025-06-09T17:56:09.033324",
+                                "index": 7
                             }
                         }
                     ]
@@ -134,10 +126,9 @@
                     "placeholder_8": [
                         {
                             "triggers": {
-                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
-                                "timestamp": "2025-06-09T17:07:05.252354",
-                                "index": 8,
-                                "welcome": "\u00a1Hola!"
+                                "factory_uuid": "5fb2cabf-3cf9-44a5-8169-0f8543877fe3",
+                                "timestamp": "2025-06-09T17:56:09.033324",
+                                "index": 8
                             }
                         }
                     ]
@@ -150,10 +141,9 @@
                     "placeholder_9": [
                         {
                             "triggers": {
-                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
-                                "timestamp": "2025-06-09T17:07:05.252354",
-                                "index": 9,
-                                "welcome": "\u00a1Hola!"
+                                "factory_uuid": "5fb2cabf-3cf9-44a5-8169-0f8543877fe3",
+                                "timestamp": "2025-06-09T17:56:09.033324",
+                                "index": 9
                             }
                         }
                     ]
@@ -166,10 +156,9 @@
                     "placeholder_10": [
                         {
                             "triggers": {
-                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
-                                "timestamp": "2025-06-09T17:07:05.252354",
-                                "index": 10,
-                                "welcome": "\u00a1Hola!"
+                                "factory_uuid": "5fb2cabf-3cf9-44a5-8169-0f8543877fe3",
+                                "timestamp": "2025-06-09T17:56:09.033324",
+                                "index": 10
                             }
                         }
                     ]
@@ -182,10 +171,9 @@
                     "placeholder_11": [
                         {
                             "triggers": {
-                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
-                                "timestamp": "2025-06-09T17:07:05.252354",
-                                "index": 11,
-                                "welcome": "\u00a1Hola!"
+                                "factory_uuid": "5fb2cabf-3cf9-44a5-8169-0f8543877fe3",
+                                "timestamp": "2025-06-09T17:56:09.033324",
+                                "index": 11
                             }
                         }
                     ]
@@ -198,10 +186,9 @@
                     "placeholder_12": [
                         {
                             "triggers": {
-                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
-                                "timestamp": "2025-06-09T17:07:05.252354",
-                                "index": 12,
-                                "welcome": "\u00a1Hola!"
+                                "factory_uuid": "5fb2cabf-3cf9-44a5-8169-0f8543877fe3",
+                                "timestamp": "2025-06-09T17:56:09.033324",
+                                "index": 12
                             }
                         }
                     ]
@@ -214,10 +201,9 @@
                     "placeholder_13": [
                         {
                             "triggers": {
-                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
-                                "timestamp": "2025-06-09T17:07:05.252354",
-                                "index": 13,
-                                "welcome": "\u00a1Hola!"
+                                "factory_uuid": "5fb2cabf-3cf9-44a5-8169-0f8543877fe3",
+                                "timestamp": "2025-06-09T17:56:09.033324",
+                                "index": 13
                             }
                         }
                     ]
@@ -230,10 +216,23 @@
                     "placeholder_14": [
                         {
                             "triggers": {
-                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
-                                "timestamp": "2025-06-09T17:07:05.252354",
-                                "index": 14,
-                                "welcome": "\u00a1Hola!"
+                                "factory_uuid": "5fb2cabf-3cf9-44a5-8169-0f8543877fe3",
+                                "timestamp": "2025-06-09T17:56:09.033324",
+                                "index": 14
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "5fb2cabf-3cf9-44a5-8169-0f8543877fe3",
+                                "timestamp": "2025-06-09T17:56:09.033324"
                             }
                         }
                     ]
@@ -244,7 +243,7 @@
             "local_file": [
                 {
                     "welcome_txt": {
-                        "content": "Bienvenido!",
+                        "content": "Bienvenido",
                         "filename": "${path.module}/bienvenida.txt"
                     }
                 }
@@ -257,8 +256,8 @@
                         {
                             "triggers": {
                                 "nota": "Recurso compuesto generado din\u00e1micamente en tiempo de ejecuci\u00f3n",
-                                "factory_uuid": "935905db-b58e-4fda-88fc-d9eb3cb30c65",
-                                "timestamp": "2025-06-09T17:07:05.252609"
+                                "factory_uuid": "17e96492-a3bf-48ae-bf8c-25c23bbce6fa",
+                                "timestamp": "2025-06-09T17:56:09.033631"
                             }
                         }
                     ]
