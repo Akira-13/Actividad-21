@@ -55,6 +55,37 @@ class InfrastructureBuilder:
             self._module.add(clone)
 
         return self
+    
+    def build_group(self, name: str, size: int):
+        base = NullResourceFactory.create(name)
+        proto = ResourcePrototype(base)
+        group = CompositeModule()
+        for i in range(size):
+            def mut(block, idx=i):
+                """
+                Modifica el nombre del recurso clonado y añade un trigger de índice.
+                """
+                # block["resource"]["null_resource"] es una lista
+                res_block = block["resource"][0]["null_resource"][0]
+
+                # Obtiene el nombre original del recurso
+                original_name = next(iter(res_block.keys()))
+
+                # Genera el nuevo nombre con el índice
+                new_name = f"{original_name}_{idx}"
+
+                # Renombra la clave en el diccionario
+                res_block[new_name] = res_block.pop(original_name)
+
+                # Añade el trigger de índice
+                res_block[new_name][0]["triggers"]["index"] = idx
+            clone = proto.clone(mut).data
+            group.add(clone)
+        self._module.add({"module": {name: group.export()}})
+    
+
+        return self
+
 
     def add_custom_resource(self, name: str, triggers: Dict[str, Any]) -> "InfrastructureBuilder":
         """
@@ -79,6 +110,24 @@ class InfrastructureBuilder:
             path: ruta de destino del archivo `.tf.json`.
         """
         data = self._module.export()
+
+        # Asegura que el directorio destino exista
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+
+        # Escribe el archivo con indentación legible
+        with open(path, "w") as f:
+            json.dump(data, f, indent=4)
+
+        print(f"[Builder] Terraform JSON escrito en: {path}")
+    
+    def _export(self, path: str) -> None:
+        """
+        Exporta el módulo compuesto a un archivo JSON compatible con Terraform.
+
+        Args:
+            path: ruta de destino del archivo `.tf.json`.
+        """
+        data = self._module._export()
 
         # Asegura que el directorio destino exista
         os.makedirs(os.path.dirname(path), exist_ok=True)

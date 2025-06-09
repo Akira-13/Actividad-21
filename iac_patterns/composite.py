@@ -39,3 +39,43 @@ class CompositeModule:
             # Combina ordenadamente todos los bloques 'resource' de los hijos
             aggregated["resource"].extend(child.get("resource", []))
         return aggregated
+
+    def _export(self) -> Dict[str, Any]:
+        """
+        Exporta todos los recursos y submódulos agregados en un único diccionario.
+        Esta estructura se puede serializar directamente a un archivo Terraform JSON válido.
+
+        Returns:
+            Un diccionario con "resource" (dict) y "module" (si existen).
+        """
+        merged: Dict[str, Any] = {
+            "resource": {},
+            "module": {}
+        }
+
+        for child in self._children:
+            # Combina recursos
+            if "resource" in child:
+                resources_block = child["resource"]
+                # Asegura que resources_block es dict
+                if isinstance(resources_block, dict):
+                    for rtype, resources_entry in resources_block.items():
+                        if isinstance(resources_entry, dict):
+                            merged["resource"].setdefault(rtype, {}).update(resources_entry)
+                elif isinstance(resources_block, list):
+                    # Si es lista, fusionamos los dicts dentro de la lista
+                    for res in resources_block:
+                        if isinstance(res, dict):
+                            for rtype, resources_entry in res.items():
+                                if isinstance(resources_entry, dict):
+                                    merged["resource"].setdefault(rtype, {}).update(resources_entry)
+
+            # Combina módulos
+            if "module" in child:
+                merged["module"].update(child["module"])
+
+        # Limpia módulo vacío
+        if not merged["module"]:
+            merged.pop("module")
+
+        return merged
