@@ -34,8 +34,18 @@ class CompositeModule:
         Returns:
             Un diccionario con todos los recursos combinados bajo la clave "resource".
         """
-        aggregated: Dict[str, Any] = {"resource": []}
+        # Ejercicio 2.4
+        merged = {"module": {}, "resource": {}}
         for child in self._children:
-            # Combina ordenadamente todos los bloques 'resource' de los hijos
-            aggregated["resource"].extend(child.get("resource", []))
-        return aggregated
+            # Llamadas recursivas
+            if isinstance(child, CompositeModule):
+                child_export = child.export()
+            else:
+                child_export = child
+
+            if "module" in child_export:
+                merged["module"].update(child_export["module"])
+            if "resource" in child_export:
+                for rtype, resources in child_export["resource"].items():
+                    merged["resource"].setdefault(rtype, {}).update(resources)
+        return merged
