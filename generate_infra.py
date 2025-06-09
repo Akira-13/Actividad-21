@@ -27,8 +27,10 @@ def main() -> None:
     # Construye 15 recursos null ficticios para demostrar escalabilidad (>1000 líneas en total)
     builder.build_null_fleet(count=15)
 
+    
     block = TimestampedNullResourceFactory.create("my_timestamped", "%Y%m%d")
     builder._module.add(block)
+
 
     # Agrega un recurso final personalizado con una nota descriptiva
     builder.add_custom_resource(
@@ -38,7 +40,17 @@ def main() -> None:
 
     # Exporta el resultado a un archivo Terraform JSON en el directorio especificado
     builder.export(path=os.path.join("terraform", "main.tf.json"))
+    
+    builder = InfrastructureBuilder(env_name=config.env_name)
+    builder.build_group("my_group", 3)
+    builder._export("terraform/my_group.tf.json")
 
+    builder = InfrastructureBuilder(env_name=config.env_name)
+    builder.build_null_fleet(15).export("terraform/main15.tf.json")
+
+    builder = InfrastructureBuilder(env_name=config.env_name)
+    builder.build_null_fleet(150).export("terraform/main150.tf.json")
+    
 # Ejecuta la función principal si el archivo se ejecuta directamente
 if __name__ == "__main__":
     main()

@@ -1,0 +1,258 @@
+{
+    "resource": [
+        {
+            "null_resource": [
+                {
+                    "placeholder_0": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "0232d7b3-5dac-4239-bf13-d7c7dea54bb2",
+                                "timestamp": "2025-06-09T16:25:22.023051",
+                                "index": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_1": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "0232d7b3-5dac-4239-bf13-d7c7dea54bb2",
+                                "timestamp": "2025-06-09T16:25:22.023051",
+                                "index": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_2": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "0232d7b3-5dac-4239-bf13-d7c7dea54bb2",
+                                "timestamp": "2025-06-09T16:25:22.023051",
+                                "index": 2
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_3": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "0232d7b3-5dac-4239-bf13-d7c7dea54bb2",
+                                "timestamp": "2025-06-09T16:25:22.023051",
+                                "index": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_4": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "0232d7b3-5dac-4239-bf13-d7c7dea54bb2",
+                                "timestamp": "2025-06-09T16:25:22.023051",
+                                "index": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_5": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "0232d7b3-5dac-4239-bf13-d7c7dea54bb2",
+                                "timestamp": "2025-06-09T16:25:22.023051",
+                                "index": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_6": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "0232d7b3-5dac-4239-bf13-d7c7dea54bb2",
+                                "timestamp": "2025-06-09T16:25:22.023051",
+                                "index": 6
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_7": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "0232d7b3-5dac-4239-bf13-d7c7dea54bb2",
+                                "timestamp": "2025-06-09T16:25:22.023051",
+                                "index": 7
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_8": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "0232d7b3-5dac-4239-bf13-d7c7dea54bb2",
+                                "timestamp": "2025-06-09T16:25:22.023051",
+                                "index": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_9": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "0232d7b3-5dac-4239-bf13-d7c7dea54bb2",
+                                "timestamp": "2025-06-09T16:25:22.023051",
+                                "index": 9
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_10": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "0232d7b3-5dac-4239-bf13-d7c7dea54bb2",
+                                "timestamp": "2025-06-09T16:25:22.023051",
+                                "index": 10
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_11": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "0232d7b3-5dac-4239-bf13-d7c7dea54bb2",
+                                "timestamp": "2025-06-09T16:25:22.023051",
+                                "index": 11
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_12": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "0232d7b3-5dac-4239-bf13-d7c7dea54bb2",
+                                "timestamp": "2025-06-09T16:25:22.023051",
+                                "index": 12
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_13": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "0232d7b3-5dac-4239-bf13-d7c7dea54bb2",
+                                "timestamp": "2025-06-09T16:25:22.023051",
+                                "index": 13
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_14": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "0232d7b3-5dac-4239-bf13-d7c7dea54bb2",
+                                "timestamp": "2025-06-09T16:25:22.023051",
+                                "index": 14
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "my_timestamped": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "f20f3a70-8bab-4e12-adef-d757e6a4cd1e",
+                                "timestamp": "20250609"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "finalizador": [
+                        {
+                            "triggers": {
+                                "nota": "Recurso compuesto generado din\u00e1micamente en tiempo de ejecuci\u00f3n",
+                                "factory_uuid": "75f5de58-7e62-4594-b6e6-b68477729d00",
+                                "timestamp": "2025-06-09T16:25:22.023586"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
