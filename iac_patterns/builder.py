@@ -45,25 +45,25 @@ class InfrastructureBuilder:
                 res_block[new_name] = res_block.pop(original_name)
                 res_block[new_name][0]["triggers"]["index"] = idx
 
-                res_block[new_name][0]["triggers"]["welcome"] = "¡Hola!"
 
             # Clonamos el prototipo y aplicamos la mutación
             clone = base_proto.clone(mutator).data
             # Agregamos el recurso clonado al módulo compuesto
             self._module.add(clone)
 
-        localFile = {   
-            "resource": [{
+        def add_welcome_file(block: dict):
+            localFile = {
                 "local_file": [{
                     "welcome_txt": {
-                        "content": "Bienvenido!",
+                        "content": "Bienvenido",
                         "filename": "${path.module}/bienvenida.txt"
                     }
                 }]
-            }]
-        }
-        self._module.add(localFile)
-                
+            }
+            block["resource"].append(localFile)
+        
+        clone = base_proto.clone(add_welcome_file).data
+        self._module.add(clone)
 
         return self
 
