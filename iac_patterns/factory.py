@@ -53,11 +53,12 @@ class TimestampedNullResourceFactory(NullResourceFactory):
             "factory_uuid": str(uuid.uuid4()),
             "timestamp": ts
         }
-        resource_block = {
-            "null_resource": {
-                name: {"triggers": triggers}
-            }
-        }
         return {
-            "resource": [resource_block]
+            "resource": [{
+                "null_resource": [{
+                    name: [{
+                        "triggers": triggers
+                    }]
+                }]
+            }]
         }
