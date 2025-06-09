@@ -1,0 +1,269 @@
+{
+    "resource": [
+        {
+            "null_resource": [
+                {
+                    "placeholder_0": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
+                                "timestamp": "2025-06-09T17:07:05.252354",
+                                "index": 0,
+                                "welcome": "\u00a1Hola!"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_1": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
+                                "timestamp": "2025-06-09T17:07:05.252354",
+                                "index": 1,
+                                "welcome": "\u00a1Hola!"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_2": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
+                                "timestamp": "2025-06-09T17:07:05.252354",
+                                "index": 2,
+                                "welcome": "\u00a1Hola!"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_3": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
+                                "timestamp": "2025-06-09T17:07:05.252354",
+                                "index": 3,
+                                "welcome": "\u00a1Hola!"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_4": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
+                                "timestamp": "2025-06-09T17:07:05.252354",
+                                "index": 4,
+                                "welcome": "\u00a1Hola!"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_5": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
+                                "timestamp": "2025-06-09T17:07:05.252354",
+                                "index": 5,
+                                "welcome": "\u00a1Hola!"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_6": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
+                                "timestamp": "2025-06-09T17:07:05.252354",
+                                "index": 6,
+                                "welcome": "\u00a1Hola!"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_7": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
+                                "timestamp": "2025-06-09T17:07:05.252354",
+                                "index": 7,
+                                "welcome": "\u00a1Hola!"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_8": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
+                                "timestamp": "2025-06-09T17:07:05.252354",
+                                "index": 8,
+                                "welcome": "\u00a1Hola!"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_9": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
+                                "timestamp": "2025-06-09T17:07:05.252354",
+                                "index": 9,
+                                "welcome": "\u00a1Hola!"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_10": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
+                                "timestamp": "2025-06-09T17:07:05.252354",
+                                "index": 10,
+                                "welcome": "\u00a1Hola!"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_11": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
+                                "timestamp": "2025-06-09T17:07:05.252354",
+                                "index": 11,
+                                "welcome": "\u00a1Hola!"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_12": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
+                                "timestamp": "2025-06-09T17:07:05.252354",
+                                "index": 12,
+                                "welcome": "\u00a1Hola!"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_13": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
+                                "timestamp": "2025-06-09T17:07:05.252354",
+                                "index": 13,
+                                "welcome": "\u00a1Hola!"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "placeholder_14": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "9fda5467-8f0f-43e8-b4cc-270da64e9b01",
+                                "timestamp": "2025-06-09T17:07:05.252354",
+                                "index": 14,
+                                "welcome": "\u00a1Hola!"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "local_file": [
+                {
+                    "welcome_txt": {
+                        "content": "Bienvenido!",
+                        "filename": "${path.module}/bienvenida.txt"
+                    }
+                }
+            ]
+        },
+        {
+            "null_resource": [
+                {
+                    "finalizador": [
+                        {
+                            "triggers": {
+                                "nota": "Recurso compuesto generado din\u00e1micamente en tiempo de ejecuci\u00f3n",
+                                "factory_uuid": "935905db-b58e-4fda-88fc-d9eb3cb30c65",
+                                "timestamp": "2025-06-09T17:07:05.252609"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
